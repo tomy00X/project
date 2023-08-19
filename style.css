@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(3, 255, 3);
+}
+
+body {
+    background-color: rgb(38, 37, 37);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.upper {
+    border: solid 1px rgb(255, 255, 255);
+    height: 500px;
+    width: 40%;
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+
+.text {
+    border: solid 1px red;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
