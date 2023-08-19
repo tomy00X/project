@@ -19,7 +19,7 @@ body {
 }
 
 .upper {
-    border: solid 1px rgb(255, 255, 255);
+    
     height: 500px;
     width: 40%;
     padding: 10px;
@@ -35,6 +35,7 @@ img {
     height: 100%;
     object-fit: cover;
     object-position: bottom;
+    border-radius: 100%;
 }
 
 #text-box {
@@ -45,7 +46,7 @@ img {
 }
 
 .text {
-    border: solid 1px red;
+    
     height: 100%;
     width: 100%;
     font-size: 20px;
